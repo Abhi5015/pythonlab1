@@ -35,8 +35,6 @@ def oct2Hex(val):
  while dec != 0:
  list.append(dec%16)
  dec = dec // 16
-8
- 
  nl=[]
  for elem in list[::-1]:
  if elem <= 9:
